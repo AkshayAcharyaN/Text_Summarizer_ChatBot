@@ -1,3 +1,5 @@
+pip install pypdf
+
 import streamlit as st
 from PyPDF2 import PdfReader
 from summarizer import summarize_text
