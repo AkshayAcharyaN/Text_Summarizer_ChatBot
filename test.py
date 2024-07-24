@@ -1,14 +1,14 @@
 # test_model.py
 
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers import LEDTokenizer, LEDForConditionalGeneration
 
 def test_model():
     try:
-        tokenizer = T5Tokenizer.from_pretrained("t5-base")
-        model = T5ForConditionalGeneration.from_pretrained("t5-base")
-        print("T5 model and tokenizer loaded successfully.")
+        tokenizer = LEDTokenizer.from_pretrained("allenai/led-base-16384")
+        model = LEDForConditionalGeneration.from_pretrained("allenai/led-base-16384")
+        print("LED model and tokenizer loaded successfully.")
     except Exception as e:
         print(f"An error occurred: {e}")
 
-if __name__ == "__main__":  
+if __name__ == "__main__":
     test_model()
