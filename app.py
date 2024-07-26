@@ -1,5 +1,5 @@
 import streamlit as st
-from summarizer import summarize_text
+from summarizer import Summarizer
 from pdf_extractor import extract_text_from_pdf
 from text_cleaner import  clean_text
 from QA_chatbot import ask_question
