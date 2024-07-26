@@ -19,7 +19,7 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 # Path to the logo
-logo_path = r"https://github.com/AkshayAcharyaN/Text_Summarizer/blob/master/8943377.png"
+logo_path = 8943377.png
 logo_base64 = get_base64_of_bin_file(logo_path)
 
 # Custom CSS
