@@ -48,24 +48,24 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ````
 
-### Configuration
+## Configuration
 
-## 1. Update app.py:
+### 1. Update app.py:
 
 Make sure the path to the logo image and any other local paths are correctly set in the app.py file.
 
-## 2. Set up your models:
+### 2. Set up your models:
 
 Ensure that the models used in QA_chatbot.py are properly downloaded and accessible.
 
-### Usage
+## Usage
 
-## 1. Run the application:
+### 1. Run the application:
 ````
 streamlit run app.py
 ````
 
-## 2. Interact with the application:
+### 2. Interact with the application:
 
 Upload PDF: Click the "Upload a PDF file" button to upload your PDF document.
 Summarize: Click the "Summarize" button to get a summary of the extracted text.
