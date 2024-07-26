@@ -78,7 +78,7 @@ if uploaded_file is not None:
     
     # Summarization section
     if st.button("Summarize"):
-        summary = summarize_text(cleaned_text)
+        summary = Summarizer(cleaned_text)
         st.subheader("Summary")
         st.success(summary)
     
