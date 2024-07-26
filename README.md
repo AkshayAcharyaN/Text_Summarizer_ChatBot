@@ -25,5 +25,62 @@ This project is a web application that enables users to upload PDF documents, ex
 
 Ensure Python 3.7 or higher is installed. Check your Python version with:
 
-```sh
-python --version
+## Installation
+
+1. Clone the repository:
+````
+git clone <repository_url>
+cd <repository_directory>
+````
+
+2. Create a virtual environment (recommended):
+````
+python -m venv venv
+````
+
+3. Activate the virtual environment:
+````
+venv\Scripts\activate
+````
+
+4. Install the required packages:
+````
+pip install -r requirements.txt
+````
+
+### Configuration
+
+## 1. Update app.py:
+
+Make sure the path to the logo image and any other local paths are correctly set in the app.py file.
+
+## 2. Set up your models:
+
+Ensure that the models used in QA_chatbot.py are properly downloaded and accessible.
+
+### Usage
+
+## 1. Run the application:
+````
+streamlit run app.py
+````
+
+## 2. Interact with the application:
+
+Upload PDF: Click the "Upload a PDF file" button to upload your PDF document.
+Summarize: Click the "Summarize" button to get a summary of the extracted text.
+Ask Questions: Enter your question in the text input field to get answers based on the PDF content.
+
+### Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code adheres to the project’s coding standards and includes tests where applicable.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Acknowledgements
+
+Hugging Face: For providing powerful NLP models.
+Streamlit: For making it easy to build interactive web applications.
+
